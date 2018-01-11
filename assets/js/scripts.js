@@ -7,7 +7,7 @@ setTimeout(function(){
   $('.odometer.01').html(2523568);
 }, 1000);
 setTimeout(function(){
-  $('.odometer.02').html(522322);
+  $('.odometer.02').html(522325);
 }, 1000);
 
 
