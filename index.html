@@ -33,6 +33,19 @@
           theme: 'default'
         };
         </script>
+        <style>
+        @media screen and (min-width: 760px) and (orientation: landscape) {
+			  #mylogo {
+			    height: 200px;
+			  }
+		  }
+		  @media (max-width:640px) and (min-width:100px){
+			  #mylogo {
+			    height: 80px;
+			    float: left;
+			  }
+		 }		  
+		 </style> 
     </head>
     <body class="">
       <!-- Pushy Menu -->
@@ -57,7 +70,7 @@
                     <div class="row">
                         <div class="col-md-3 col-xs-10">
                             <a href="#" class="thumbnail logo">
-                                <img src="images/your_logo.png" alt="" class="img-responsive">
+                                <img src="images/your_logo.png" alt="Softecol, tecnologia de vanguardia a su alcance" class="img-responsive" id="mylogo">
                             </a>
                         </div>
                         <div class="col-md-1 col-md-offset-8 col-xs-2 text-center">
@@ -69,7 +82,7 @@
 						<strong>Software y Hardware</strong></h1>
                         <p>Servicios de software a la medida, implementación de redes y hardware de tecnolog&iacute;a.</p>
                         <p>
-	                        <a class="btn btn-primary btn-lg" href="#feat" role="button">Saber m&aacute;s</a>                         	
+	                        <a class="btn btn-primary btn-lg" href="#feat" role="button" id="saber">Saber m&aacute;s</a>                         	
                         </p>
                         <br>
                     </div>
@@ -139,7 +152,7 @@
                     </div>
                     <div class="col-md-5">
                         <a href="#">
-                            <img src="https://picsum.photos/1200/1200?image=899" alt="" class="img-responsive">
+                            <img src="https://picsum.photos/1200/1200?image=695" alt="Nuestra gente, un equipo que trabaja con ganas" class="img-responsive">
                         </a>
                     </div>
                 </div>
@@ -154,10 +167,10 @@
                             <div class="row">
                                 <div class="col-md-10 col-md-offset-1">
                                     <p class="lead"><i>A la vanguardia con grandes productores de tecnologia y servicios como Google, Microsoft, Apple, IBM, Oracle, Heroku</i></p>
-                                    <p><i>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</i></p>
-                                    <h6 class="lead"> – Fermentum Dapibus</h6>
-                                    <p><small>Nibh Etiam Risus Bibendum<br>
-        Nullam id dolor id nibh ultricies vehicula ut id elit.</small></p>
+                                    <p><i>Diseñamos productos de Software con tecnologías PHP, COBOL, Perl, Python, Java, T-SQL, PL-SQL. Tecnologías cloud amazon AWS, Azure, Heroku. Equipos de comunicaciones Cisco, Huawei. Tecnologia de oficina HP, Dell, Lenovo, Sharp, Kyocera .</i></p>
+                                    <h6 class="lead">Renta de Equipos</h6>
+                                    <p><small>PC o portatiles<br>
+       Gestión documental e impresión y copiado.</small></p>
                                 </div>
                             </div>
                         </div>
@@ -172,40 +185,52 @@
                         <div class="grid-sizer"></div>
                         <div class="gutter-sizer"></div>
                         <div class="item item-width2">
-                            <a href="https://unsplash.it/1000/600?image=529">
-                              <img src="https://unsplash.it/600/300?image=529" alt="" />
+                           <a href="http://php.net/manual/es/intro-whatis.php">
+                              <img src="images/php.png" alt="" />
+                            </a>
+
+                        </div>
+                        <div class="item">
+                            <a href="https://www.microsoft.com/es-co">
+                              <img src="images/microsoft.png" alt="" />
                             </a>
                         </div>
                         <div class="item">
-                            <a href="https://unsplash.it/1000/600?image=523">
-                              <img src="https://unsplash.it/320/776?image=523" alt="" />
+                            <a href="https://dashboard.heroku.com/">
+                              <img src="images/heroku.png" alt="" />
                             </a>
                         </div>
                         <div class="item">
-                            <a href="https://unsplash.it/600/1000?image=503">
-                              <img src="https://unsplash.it/500/800?image=503" alt="" />
+                            <a href="https://aws.amazon.com/es/">
+                              <img src="images/amazon.png" alt="" />
                             </a>
                         </div>
                         <div class="item">
-                            <a href="https://unsplash.it/1000/600?image=505">
-                              <img src="https://unsplash.it/400/400?image=505" alt="" />
+                            <a href="https://www.google.es/about/">
+                              <img src="images/google.png" alt="" />
                             </a>
                         </div>
                         <div class="item">
-                            <a href="https://unsplash.it/800/800?image=454">
-                              <img src="https://unsplash.it/4403/2476?image=454" alt="" />
+                            <a href="https://www.ibm.com/co-es/">
+                              <img src="images/ibm.png" alt="" />
                             </a>
                         </div>
-                        <div class="item">
-                            <a href="https://unsplash.it/800/800?image=515">
-                              <img src="https://unsplash.it/585/439?image=515" alt="" />
+                       <div class="item">
+                            <a href="http://www.sharp-world.com/">
+                              <img src="images/sharp.png" alt="" />
                             </a>
                         </div>
                         <div class="item item-width2">
-                            <a href="https://unsplash.it/1000/600?image=451">
-                              <img src="https://unsplash.it/600/140?image=451" alt="" />
+                            <a href="https://www.android.com/">
+                              <img src="images/android.png" alt="" />
                             </a>
                         </div>
+                       <div class="item">
+                            <a href="https://www3.lenovo.com/co/es/">
+                              <img src="images/lenovo.png" alt="" />
+                            </a>
+                        </div>
+
                     </div>
                 </div>
             </div>
