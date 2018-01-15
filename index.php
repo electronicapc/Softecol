@@ -38,6 +38,13 @@
 			  #mylogo {
 			    height: 200px;
 			  }
+			  #whatsapp{
+			  	display: none;
+			  }
+			  
+			  #whatsappcall{
+			  	display: none;
+			  }
 		  }
 		  @media (max-width:640px) and (min-width:100px){
 			  #mylogo {
@@ -48,6 +55,25 @@
 		 </style> 
     </head>
     <body class="">
+    <?php  
+    if(empty($_GET))
+	{}
+	else
+	{
+		if($_GET["info"] == "true")
+		{
+	?>
+			<div class="alert alert-success">
+		  		<strong>Se recibi&oacute; su solicitud, pronto nos comunicaremos, gracias por elegirnos!</strong>
+			</div>
+	<?php 
+		}
+	}
+
+
+
+	?>
+
       <!-- Pushy Menu -->
       <nav class="pushy pushy-left navbar-fixed-top">
         <ul class="list-unstyled">
@@ -269,9 +295,11 @@
                             <p>Empresa Colombiana. Dir. Dg 2B No. 82 - 30. <br> Tel. Contacto 300 5672190. <br> E-mail: contacto@softecol.com. <br> Bogotá - Colombia. </p>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" placeholder="Su Email aquí...">
+                                <form method="POST" action="envio_mail.php" accept-charset="UTF-8">
+                                    <input type="email" required class="form-control" placeholder="Su Email aquí..." name="email">
                                     <br>
-                                    <button type="button" class="btn btn-danger">Requerir información</button>
+                                    <button type="submit" class="btn btn-danger">Requerir información</button>
+                                </form>    
                                 </div>
                             </div>
                         </div>
@@ -283,16 +311,15 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
-                        <h3>Your Logo</h3>
+                        <h3>Softecol</h3>
                         <p>© 2018 Softecol. Designed and Developed by <a target="_blank" href="http://www.softecol.com">ThemeintheBox with Softecol</a></p>
                     </div>
                     <div class="col-md-4">
                         <p class="text-right social">
-	                        <a href="https://www.facebook.com/ThemeInTheBox/" target="_blank"><i class="typcn typcn-social-facebook-circular"></i></a>
-							<a href="https://twitter.com/ThemeintheBox" target="_blank"><i class="typcn typcn-social-twitter-circular"></i></a>
-							<i class="typcn typcn-social-tumbler-circular"></i>
-							<i class="typcn typcn-social-github-circular"></i>
-							<i class="typcn typcn-social-dribbble-circular"></i>
+	                        <a href="https://www.facebook.com/ThemeInTheBox/" target="_blank"><i class="typcn typcn-social-facebook-circular"></i></a>							
+							<a href="https://twitter.com/ThemeintheBox" target="_blank"><i class="typcn typcn-social-instagram-circular"></i></a>
+							<a href="whatsapp://send?text=http://softecol.com" target="_blank" id="whatsapp"><i class="typcn typcn-social-at-circular"></i> Compartir</a><br>
+							<a href="tel:+573005672190" target="_blank" id="whatsappcall"><img src="images/whatsapp.png" alt="Llamada Whatsapp" width="30" height="30"> Llamanos!</a>
 						</p>
                     </div>
                 </div>
