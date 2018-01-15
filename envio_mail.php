@@ -2,7 +2,7 @@
 
 $email	= $_POST['email'];
 
-$to = "gunsnjrc@yahoo.com,electronicapcolombia@hotmail.com,$email";
+$to = "electronicapcolombia@hotmail.com,$email";
 $subject = "Solictud de informaci&oacute;n";
 $message = "
 <html>
