@@ -69,9 +69,6 @@
 	<?php 
 		}
 	}
-
-
-
 	?>
 
       <!-- Pushy Menu -->
@@ -106,7 +103,7 @@
                     <div class="jumbotron">
                         <h1><small>Softecol</small>
 						<strong>Software y Hardware</strong></h1>
-                        <p>Servicios de software a la medida, implementación de redes y hardware de tecnolog&iacute;a.</p>
+                        <p>Servicios de software a la medida, implementaci&oacute;n de redes y hardware de tecnolog&iacute;a.</p>
                         <p>
 	                        <a class="btn btn-primary btn-lg" href="#feat" role="button" id="saber">Saber m&aacute;s</a>                         	
                         </p>
@@ -121,17 +118,17 @@
                     <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="100ms">
                         <span class="typcn typcn-pencil x3"></span>
                         <h4>Desarrollo de software</h4>
-                        <p>Tiene una necesidad en su compañia?. Quiere que sus procesos fluyan, sean efectivos y sin errores? Desarrollamos software de acuerdo a sus necesidades. Si existe algún proceso, método o simplemente desea tener el control sobre un flujo, puede requerir una automatización, esta se realiza de acuerdo a su solicitud teniendo en cuenta las entradas y salidas del proceso, así como el rumbo y visión del negocio.</p>
+                        <p>Tiene una necesidad en su compa&ntilde;&iacute;a?. Quiere que sus procesos fluyan, sean efectivos y sin errores? Desarrollamos software de acuerdo a sus necesidades. Si existe alg&uacute;n proceso, método o simplemente desea tener el control sobre un flujo, puede requerir una automatizaci&oacute;n, esta se realiza de acuerdo a su solicitud teniendo en cuenta las entradas y salidas del proceso, as&iacute; como el rumbo y visi&oacute;n del negocio.</p>
                     </div>
                     <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="300ms">
                         <span class="typcn typcn-cloud-storage-outline x3"></span>
                         <h4>Redes y comunicaciones</h4>
-                        <p>Necesita la implementación de su red de comunicaciones para pequeña y mediana empresa? Implementamos sus requerimientos de comunicaciones</p>
+                        <p>Necesita la implementaci&oacute;n de su red de comunicaciones para peque&ntilde;a y mediana empresa? Implementamos sus requerimientos de comunicaciones. Sabemos que una compa&ntilde;&iacute;a siempre debe estar conectada, de la mejor manera y oportunamente, cualquier oportunidad de negocio depender&aacute; de ello</p>
                     </div>
                     <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="500ms">
                         <span class="typcn typcn-spanner-outline x3"></span>
-                        <h4>Hardware de Tecnología</h4>
-                        <p>Insumos y suplementos para cualquier necesidad en su compañia, Equipos (PC y portátiles), copiadoras, impresoras, periféricos.</p>
+                        <h4>Hardware de Tecnolog&iacute;a</h4>
+                        <p>Insumos y suplementos para cualquier necesidad en su compa&ntilde;&iacute;a, Equipos (PC y port&aacute;tiles), copiadoras, impresoras, periféricos.</p>
                     </div>
                 </div>
             </div>
@@ -144,20 +141,20 @@
                         <div class="col-md-6 opaline col-md-offset-6">
                             <div class="row">
                                 <div class="col-md-offset-1 col-md-10">
-                                    <h3>Software diseñado para us necesidades</h3>
+                                    <h3>Software dise&ntilde;ado para us necesidades</h3>
                                     <h5>Desarrollos a la medida</h5>
-                                    <p>Los procesos de su compañia requieren el apalancamiento del software adecuado para reducir tiempos y costos.</p>
+                                    <p>Los procesos de su compa&ntilde;&iacute;a requieren el apalancamiento del software adecuado para reducir tiempos y costos.</p>
                                 </div>
                             </div>
                             <div class="row text-center">
                                 <!-- set the numbers in assets/js/scripts.js  -->
                                 <div class="col-md-4 boxes col-xs-6 col-xs-offset-3 col-lg-4 col-lg-offset-1 col-md-offset-1 col-sm-6 wow fadeInUp">
-                                    <h5>Creación Software diario</h5>
+                                    <h5>Creaci&oacute;n Software diario</h5>
                                     <h3 class="odometer 01">00000</h3>
                                     <h5>Y en aumento...</h5>
                                 </div>
                                 <div class="col-md-4 boxes col-xs-6 col-xs-offset-3 col-lg-4 col-lg-offset-2 col-md-offset-2 col-sm-6 wow fadeInUp" data-wow-delay="300ms">
-                                    <h5>Instalación procesos diarios automaticos en compañias</h5>
+                                    <h5>Instalaci&oacute;n procesos diarios automaticos en compa&ntilde;&iacute;as</h5>
                                     <h3 class="odometer 02">00000</h3>
                                     <h5>Y en aumento...</h5>
                                 </div>
@@ -172,8 +169,8 @@
                 <div class="row">
                     <div class="col-md-7">
                         <h2>Quienes somos</h2>
-                        <p>Somos una empresa Colombiana soportada en principios de fidelización y servicio al cliente. Generamos cadenas de valor para las compañias nacionales e internacionales enfocadas en optimizar sus procesos</p>
-                        <p>Implementamos un canal de ventas directo, en el momento que requiera algún insumo o producto, desde equipos de computo, copiadoras, multifuncionales, equipos de red, perifericos, equipos de telefonía móvil y en general cualquier requerimiento tecnológico .</p>
+                        <p>Somos una empresa Colombiana soportada en principios de fidelizaci&oacute;n y servicio al cliente. Generamos cadenas de valor para las compa&ntilde;&iacute;as nacionales e internacionales enfocadas en optimizar sus procesos</p>
+                        <p>Implementamos un canal de ventas directo, en el momento que requiera alg&uacute;n insumo o producto, desde equipos de computo, copiadoras, multifuncionales, equipos de red, perifericos, equipos de telefon&iacute;a m&oacute;vil y en general cualquier requerimiento tecnol&oacute;gico .</p>
                         <a class="btn btn-danger btn-lg" href="http://electronicapc.hol.es "  target="_blank">Tienda <i class="fa fa-arrow-circle-o-right"></i> </a>
                     </div>
                     <div class="col-md-5">
@@ -193,10 +190,10 @@
                             <div class="row">
                                 <div class="col-md-10 col-md-offset-1">
                                     <p class="lead"><i>A la vanguardia con grandes productores de tecnologia y servicios como Google, Microsoft, Apple, IBM, Oracle, Heroku</i></p>
-                                    <p><i>Diseñamos productos de Software con tecnologías PHP, COBOL, Perl, Python, Java, T-SQL, PL-SQL. Tecnologías cloud amazon AWS, Azure, Heroku. Equipos de comunicaciones Cisco, Huawei. Tecnologia de oficina HP, Dell, Lenovo, Sharp, Kyocera .</i></p>
+                                    <p><i>Dise&ntilde;amos productos de Software con tecnolog&iacute;as PHP, COBOL, Perl, Python, Java, T-SQL, PL-SQL. Tecnolog&iacute;as cloud amazon AWS, Azure, Heroku. Equipos de comunicaciones Cisco, Huawei. Tecnologia de oficina HP, Dell, Lenovo, Sharp, Kyocera .</i></p>
                                     <h6 class="lead">Renta de Equipos</h6>
                                     <p><small>PC o portatiles<br>
-       Gestión documental e impresión y copiado.</small></p>
+       Gesti&oacute;n documental e impresi&oacute;n y copiado.</small></p>
                                 </div>
                             </div>
                         </div>
@@ -291,14 +288,14 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8">
-                            <h3>Softecol tecnología y software.</h3>
-                            <p>Empresa Colombiana. Dir. Dg 2B No. 82 - 30. <br> Tel. Contacto 300 5672190. <br> E-mail: contacto@softecol.com. <br> Bogotá - Colombia. </p>
+                            <h3>Softecol tecnolog&iacute;a y software.</h3>
+                            <p>Empresa Colombiana. Dir. Dg 2B No. 82 - 30. <br> Tel. Contacto 300 5672190. <br> E-mail: contacto@softecol.com. <br> Bogot&aacute; - Colombia. </p>
                             <div class="row">
                                 <div class="col-md-6">
                                 <form method="POST" action="envio_mail.php" accept-charset="UTF-8">
-                                    <input type="email" required class="form-control" placeholder="Su Email aquí..." name="email">
+                                    <input type="email" required class="form-control" placeholder="Su Email aqu&iacute;..." name="email">
                                     <br>
-                                    <button type="submit" class="btn btn-danger">Requerir información</button>
+                                    <button type="submit" class="btn btn-danger">Requerir informaci&oacute;n</button>
                                 </form>    
                                 </div>
                             </div>
