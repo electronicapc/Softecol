@@ -36,7 +36,7 @@
         <style>
         @media screen and (min-width: 760px) and (orientation: landscape) {
 			  #mylogo {
-			    height: 200px;
+			    height: 180px;
 			  }
 			  #whatsapp{
 			  	display: none;
@@ -105,7 +105,7 @@
 						<strong>Software y Hardware</strong></h1>
                         <p>Servicios de software a la medida, implementaci&oacute;n de redes y hardware de tecnolog&iacute;a.</p>
                         <p>
-	                        <a class="btn btn-primary btn-lg" href="#feat" role="button" id="saber">Saber m&aacute;s</a>                         	
+                        <a class="btn btn-primary btn-lg" href="#feat" role="button" id="saber">Saber m&aacute;s</a>                         	
                         </p>
                         <br>
                     </div>
@@ -330,7 +330,7 @@
         <script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.0.4/js/bootstrap-scrollspy.js"></script>
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-        <script src="http://masonry.desandro.com/masonry.pkgd.js"></script>
+        <script src="https://masonry.desandro.com/masonry.pkgd.js"></script>
         <script src="assets/js/masonry.js"></script>
         <script src="assets/js/pushy.min.js"></script>
         <script src="assets/js/jquery.magnific-popup.min.js"></script>
