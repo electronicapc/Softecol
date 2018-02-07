@@ -3,7 +3,7 @@
 $email	= $_POST['email'];
 
 $to = "electronicapcolombia@hotmail.com,$email";
-$subject = "Solictud de informacion";
+$subject = "Solictud de informacion de servicios";
 $message = "
 <html>
 	<head>
