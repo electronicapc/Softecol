@@ -52,6 +52,9 @@
 			    height: 80px;
 			    float: left;
 			  }
+			  #saber{
+			  	display: none;
+			  }
 		 }		  
 		 </style> 
     </head>
