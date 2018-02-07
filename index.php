@@ -7,6 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <title>Softecol - Ingenier&iacute;a de Vanguardia</title>
+        <link rel="shortcut icon" href="images/favicon.ico" />
         <!-- Bootstrap core CSS -->
         <link href="bootstrap/css/theme.css" rel="stylesheet">
         <!-- Custom styles for this template -->
