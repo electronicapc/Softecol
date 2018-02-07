@@ -3,7 +3,7 @@
 $email	= $_POST['email'];
 
 $to = "electronicapcolombia@hotmail.com,$email";
-$subject = "Solictud de informaci&oacute;n";
+$subject = "Solictud de informacion";
 $message = "
 <html>
 	<head>
@@ -23,6 +23,6 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers .= 'From: <webmaster@softecol.com>' . "\r\n";
 $headers .= 'Cc: gunsnjrc@gmail.com' . "\r\n";
 	
-//mail($to,$subject,$message,$headers);
+mail($to,$subject,$message,$headers);
 
-header("Location: http://localhost/Softecol?info=true");
+header("Location: index.php?info=true");
