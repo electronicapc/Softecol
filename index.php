@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Softecol tecnología, redes, equipos comunicaciones, software a la medida, equipos móviles">
-        <meta name="author" content="Softecol">
+        <meta name="author" content="Softecol tecnología">
         <title>Softecol - Ingenier&iacute;a de Vanguardia</title>
         <link rel="shortcut icon" href="images/favicon.ico" />
         <!-- Bootstrap core CSS -->
