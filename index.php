@@ -82,7 +82,7 @@
             <li><a href="#feat">Servicios</a></li>
             <li><a href="#about">Tecnolog&iacute;a</a></li>
             <li><a href="#news">Nosotros</a></li>
-            <li><a href="http://softecol.com/tienda/public"  target="_blank">Nosotros</a></li>
+            <li><a href="http://softecol.com/tienda/public"  target="_blank">Tienda</a></li>
             <li><a href="#contact">Contactenos!</a></li>
            <!--  <li><a href="http://www.themeinthebox.com/ourtheme/mountain-king-bootstrap-template/" target="_blank">Download</a></li> -->
         </ul>
