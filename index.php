@@ -82,6 +82,7 @@
             <li><a href="#feat">Servicios</a></li>
             <li><a href="#about">Tecnolog&iacute;a</a></li>
             <li><a href="#news">Nosotros</a></li>
+            <li><a href="http://softecol.com/tienda/public"  target="_blank">Nosotros</a></li>
             <li><a href="#contact">Contactenos!</a></li>
            <!--  <li><a href="http://www.themeinthebox.com/ourtheme/mountain-king-bootstrap-template/" target="_blank">Download</a></li> -->
         </ul>
@@ -175,7 +176,7 @@
                         <h2>Quienes somos</h2>
                         <p>Somos una empresa Colombiana soportada en principios de fidelizaci&oacute;n y servicio al cliente. Generamos cadenas de valor para las compa&ntilde;&iacute;as nacionales e internacionales enfocadas en optimizar sus procesos</p>
                         <p>Implementamos un canal de ventas directo, en el momento que requiera alg&uacute;n insumo o producto, desde equipos de computo, copiadoras, multifuncionales, equipos de red, perifericos, equipos de telefon&iacute;a m&oacute;vil y en general cualquier requerimiento tecnol&oacute;gico .</p>
-                        <a class="btn btn-danger btn-lg" href="http://electronicapc.hol.es "  target="_blank">Tienda <i class="fa fa-arrow-circle-o-right"></i> </a>
+                        <a class="btn btn-danger btn-lg" href="http://softecol.com/tienda/public"  target="_blank">Tienda <i class="fa fa-arrow-circle-o-right"></i> </a>
                     </div>
                     <div class="col-md-5">
                         <a href="#">
