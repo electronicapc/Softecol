@@ -318,8 +318,8 @@
                     </div>
                     <div class="col-md-4">
                         <p class="text-right social">
-	                        <a href="https://www.facebook.com/ThemeInTheBox/" target="_blank"><i class="typcn typcn-social-facebook-circular"></i></a>							
-							<a href="https://twitter.com/ThemeintheBox" target="_blank"><i class="typcn typcn-social-instagram-circular"></i></a>
+	                        <a href="https://www.facebook.com/Softecolsoftwareyhardware/" target="_blank"><i class="typcn typcn-social-facebook-circular"></i></a>							
+							<a href="https://twitter.com/softecol" target="_blank"><i class="typcn typcn-social-instagram-circular"></i></a>
 							<a href="whatsapp://send?text=http://softecol.com" target="_blank" id="whatsapp"><i class="typcn typcn-social-at-circular"></i> Compartir</a><br>
 							<a href="tel:+573005672190" target="_blank" id="whatsappcall"><img src="images/whatsapp.png" alt="Llamada Whatsapp" width="30" height="30"> Llamanos!</a>
 						</p>
