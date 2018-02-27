@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Softecol tecnolog�a, redes, equipos comunicaciones, software a la medida, equipos m�viles">
-        <meta name="author" content="Softecol tecnolog�a">
+        <meta name="description" content="Softecol tecnología, redes, equipos comunicaciones, software a la medida, equipos móviles">
+        <meta name="author" content="Softecol tecnología">
         <title>Softecol - Ingenier&iacute;a de Vanguardia</title>
         <link rel="shortcut icon" href="images/favicon.ico" />
         <!-- Bootstrap core CSS -->
@@ -35,7 +35,7 @@
         };
         </script>
         <style>
-        @media screen and (min-width: 760px) and (orientation: landscape) {
+        @media screen and (min-width: 769px) and (orientation: landscape) {
 			  #mylogo {
 			    height: 180px;
 			  }
@@ -47,7 +47,7 @@
 			  	display: none;
 			  }
 		  }
-		  @media (max-width:640px) and (min-width:100px){
+		  @media (max-width:768px) and (min-width:100px){
 			  #mylogo {
 			    height: 80px;
 			    float: left;
@@ -123,7 +123,7 @@
                     <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="100ms">
                         <span class="typcn typcn-pencil x3"></span>
                         <h4>Desarrollo de software</h4>
-                        <p>Tiene una necesidad en su compa&ntilde;&iacute;a?. Quiere que sus procesos fluyan, sean efectivos y sin errores? Desarrollamos software de acuerdo a sus necesidades. Si existe alg&uacute;n proceso, método o simplemente desea tener el control sobre un flujo, puede requerir una automatizaci&oacute;n, esta se realiza de acuerdo a su solicitud teniendo en cuenta las entradas y salidas del proceso, as&iacute; como el rumbo y visi&oacute;n del negocio.</p>
+                        <p>Tiene una necesidad en su compa&ntilde;&iacute;a?. Quiere que sus procesos fluyan, sean efectivos y sin errores? Desarrollamos software de acuerdo a sus necesidades. Si existe alg&uacute;n proceso, mÃ©todo o simplemente desea tener el control sobre un flujo, puede requerir una automatizaci&oacute;n, esta se realiza de acuerdo a su solicitud teniendo en cuenta las entradas y salidas del proceso, as&iacute; como el rumbo y visi&oacute;n del negocio.</p>
                     </div>
                     <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="300ms">
                         <span class="typcn typcn-cloud-storage-outline x3"></span>
@@ -133,7 +133,7 @@
                     <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="500ms">
                         <span class="typcn typcn-spanner-outline x3"></span>
                         <h4>Hardware de Tecnolog&iacute;a</h4>
-                        <p>Insumos y suplementos para cualquier necesidad en su compa&ntilde;&iacute;a, Equipos (PC y port&aacute;tiles), copiadoras, impresoras, periféricos.</p>
+                        <p>Insumos y suplementos para cualquier necesidad en su compa&ntilde;&iacute;a, Equipos (PC y port&aacute;tiles), copiadoras, impresoras, perifÃ©ricos.</p>
                     </div>
                 </div>
             </div>
@@ -314,7 +314,7 @@
                 <div class="row">
                     <div class="col-md-8">
                         <h3>Softecol</h3>
-                        <p>© 2018 Softecol. Designed and Developed by <a target="_blank" href="http://www.softecol.com">ThemeintheBox with Softecol</a></p>
+                        <p>Â© 2018 Softecol. Designed and Developed by <a target="_blank" href="http://www.softecol.com">ThemeintheBox with Softecol</a></p>
                     </div>
                     <div class="col-md-4">
                         <p class="text-right social">
