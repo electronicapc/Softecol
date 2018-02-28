@@ -47,7 +47,7 @@
 			  	display: none;
 			  }
 		  }
-		  @media (max-width:768px) and (min-width:100px){
+		  @media (max-width:800px) and (min-width:100px){
 			  #mylogo {
 			    height: 80px;
 			    float: left;
