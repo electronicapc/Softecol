@@ -265,24 +265,34 @@
         </section>
         <section class="clients wow fadeInUp" data-wow-delay="300ms">
             <div class="container">
-                <div class="row">
+                <div class="row">                	
                     <div class="col-md-2">
-                        <img src="images/logo-sample-01.jpg" class="img-responsive" />
+                    	<a href="http://softecol.com/tienda/public/categoria/1" target="_blank">
+                        	<img src="images/logo-sample-01.jpg" class="img-responsive" />
+                        </a>
+                    </div>                    
+                    <div class="col-md-2">
+                    	<a href="http://softecol.com/tienda/public/categoria/4" target="_blank">
+                        	<img src="images/logo-sample-02.jpg" class="img-responsive" />
+                        </a>
                     </div>
                     <div class="col-md-2">
-                        <img src="images/logo-sample-02.jpg" class="img-responsive" />
+                    	<a href="http://softecol.com/tienda/public/categoria/4" target="_blank">
+                        	<img src="images/logo-sample-03.png" class="img-responsive" />
+                        </a>
                     </div>
-                    <div class="col-md-2">
-                        <img src="images/logo-sample-03.png" class="img-responsive" />
-                    </div>
-                    <div class="col-md-2">
+                   <!-- <div class="col-md-2">
                         <img src="images/logo-sample-04.jpg" class="img-responsive" />
+                    </div> --> 
+                    <div class="col-md-2">
+                    	<a href="http://softecol.com/tienda/public/categoria/1" target="_blank">
+                        	<img src="images/logo-sample-05.jpg" class="img-responsive" />
+                        </a>
                     </div>
                     <div class="col-md-2">
-                        <img src="images/logo-sample-05.jpg" class="img-responsive" />
-                    </div>
-                    <div class="col-md-2">
-                        <img src="images/logo-sample-06.png" class="img-responsive" />
+                    	<a href="http://softecol.com/tienda/public/categoria/2" target="_blank">
+                        	<img src="images/logo-sample-06.png" class="img-responsive" />
+                        </a>
                     </div>
                 </div>
             </div>
@@ -314,7 +324,7 @@
                 <div class="row">
                     <div class="col-md-8">
                         <h3>Softecol</h3>
-                        <p>Â© 2018 Softecol. Designed and Developed by <a target="_blank" href="http://www.softecol.com">ThemeintheBox with Softecol</a></p>
+                        <p>&#174; 2018 Softecol. Designed and Developed by <a target="_blank" href="http://www.softecol.com">ThemeintheBox with Softecol</a></p>
                     </div>
                     <div class="col-md-4">
                         <p class="text-right social">
