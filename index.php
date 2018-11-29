@@ -26,6 +26,7 @@
         <link rel="stylesheet" href="assets/css/animate.css">
         <link rel="stylesheet" href="assets/css/magnific-popup.css">
         <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
+        <link rel="stylesheet" href="src_mail/jquery.simpleCaptcha.css">
         <script>
         window.odometerOptions = {
           selector: '.odometer',
@@ -72,6 +73,14 @@
 			</div>
 	<?php 
 		}
+		if($_GET["info"] == "false")
+		{
+			?>
+					<div class="alert alert-success">
+				  		<strong>No se realiz&oacute; la validaci&oacute;n correctamente, vuelve a intentarlo!!</strong>
+					</div>
+			<?php 
+				}
 	}
 	?>
 
@@ -304,11 +313,13 @@
                     <div class="row">
                         <div class="col-md-8">
                             <h3>Softecol tecnolog&iacute;a y software.</h3>
-                            <p>Empresa Colombiana. Dir. Dg 2B No. 82 - 30. <br> Tel. Contacto 300 5672190. <br> E-mail: contacto@softecol.com. <br> Bogot&aacute; - Colombia. </p>
+                            <p>Empresa Colombiana. Dir. Dg 2B No. 82 - 30. <br> Tel. Contacto 305 7159818. <br> E-mail: contacto@softecol.com. <br> Bogot&aacute; - Colombia. </p>
                             <div class="row">
                                 <div class="col-md-6">
                                 <form method="POST" action="envio_mail.php" accept-charset="UTF-8">
                                     <input type="email" required class="form-control" placeholder="Su Email aqu&iacute;..." name="email">
+                                    <br>
+                                    <div id="captcha"></div>
                                     <br>
                                     <button type="submit" class="btn btn-danger">Requerir informaci&oacute;n</button>
                                 </form>    
@@ -331,7 +342,7 @@
 	                        <a href="https://www.facebook.com/Softecolsoftwareyhardware/" target="_blank"><i class="typcn typcn-social-facebook-circular"></i></a>							
 							<a href="https://twitter.com/softecol" target="_blank"><i class="typcn typcn-social-instagram-circular"></i></a>
 							<a href="whatsapp://send?text=http://softecol.com" target="_blank" id="whatsapp"><i class="typcn typcn-social-at-circular"></i> Compartir</a><br>
-							<a href="tel:+573005672190" target="_blank" id="whatsappcall"><img src="images/whatsapp.png" alt="Llamada Whatsapp" width="30" height="30"> Llamanos!</a>
+							<a href="tel:+573057159818" target="_blank" id="whatsappcall"><img src="images/whatsapp.png" alt="Llamada Whatsapp" width="30" height="30"> Llamanos!</a>
 						</p>
                     </div>
                 </div>
@@ -340,7 +351,8 @@
         <!-- Bootstrap core JavaScript
     ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
-        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.min.js"></script>  
+         <!--<script src="src_mail/jQuery.js"></script>-->
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.0.4/js/bootstrap-scrollspy.js"></script>
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -352,6 +364,7 @@
         <script src="assets/js/wow.min.js"></script>
         <script src="assets/js/scripts.js"></script>
         <script src="assets/js/odometer.js"></script>
+        <script src="src_mail/jquery.simpleCaptcha.js"></script>
         <!--Start of Tawk.to Script-->
 	<script type="text/javascript">
 		var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -365,6 +378,12 @@
 		})();
 	</script>
 	<!--End of Tawk.to Script-->
+	<script>
+	  $('#captcha').simpleCaptcha({
+		  introText: "Comprueba que eres humano seleccionando <br> la imagen de <span class='captchaText'></span>.", 
+		  numImages: '5', 
+		  scriptPath: 'src_mail/simpleCaptcha.php'});
+	</script>
     </body>
 </html>
 
